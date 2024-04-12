@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex-basis: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(215, 43, 43);
+    }
+
+
+  .h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f1ea52;
+  }
+
+        .menu {
+        display: flex; 
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        margin: 20px;
+        padding: 20px;
+        }
+        
+        .main {
+        font-size: 20px;
+        text-decoration: none;
+        color: rgb(19, 111, 111);
+        margin: 20px;
+        font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f1ea52;
+        }
+
+        main {
+            flex-basis: 75vh;
+            display: flex; 
+            flex-grow: 1; 
+            }
+
+            .gallery {
+                border: 1px solid;
+            display: flex; 
+            flex-wrap: wrap;
+            justify-content: space-around;
+            background-color: blueviolet;
+            }
+
+            .bake {
+            display: flex; 
+            width: 430px;
+            height: 230px;
+            background-color: blueviolet;
+            }
+            .bake:hover {
+                transition: transform 0.5s;
+                transform: scale(1.2);
+            }
+
+            .carriage {
+                display: flex; 
+                width: 430px;
+                height: 230px;
+                background-color: blueviolet;
+            }
+
+            .carriage:hover {
+                transition: transform 0.5s;
+                transform: scale(1.2);
+            }
+
+            .carpet {
+            display: flex; 
+            width: 430px;
+            height: 230px;
+            background-color: blueviolet;
+            }
+
+            .carpet:hover {
+                transition: transform 0.5s;
+                transform: scale(1.2);
+            }
+
+            .lamp {
+            display: flex; 
+            width: 430px;
+            height: 230px;
+            background-color: blueviolet;
+            }
+            .lamp:hover {
+                transition: transform 0.5s;
+                transform: scale(1.2);
+            }
+
+            .mirror {
+                display: flex; 
+                width: 430px;
+                height: 230px;
+                background-color: blueviolet;
+            }
+            .mirror:hover {
+                transition: transform 0.5s;
+                transform: scale(1.2);
+            }
+
+            .wand {
+                display: flex; 
+                width: 430px;
+                height: 230px;
+                background-color: blueviolet;
+            }
+            .wand:hover {
+           transition: transform 0.5s;
+          transform: scale(1.2);
+            }
+
+    footer {
+        flex-basis: 5vh;
+        display: flex;
+        column-gap: 40px;
+    padding: 20px;
+    background-color:  rgb(239, 14, 14);
+    }
+    
